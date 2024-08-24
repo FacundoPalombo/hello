@@ -1,11 +1,49 @@
 :root {
+  /* Primary Colors */
+  --primary-color: #2a7de1; /* Professional Friendly Blue */
+  --secondary-color: #73a3f3; /* Soft Complementary Blue */
+  --accent-color: #4a90e2; /* Vibrant Blue for Highlights */
+
+  /* Backgrounds */
+  --background-color: #f5f7fa; /* Light Gray for Main Background */
+  --surface-color: #ffffff; /* White for Card Backgrounds */
+
+  /* Text Colors */
+  --text-color: #333333; /* Dark Gray for Main Text */
+  --muted-text-color: #666666; /* Medium Gray for Muted Text */
+  --heading-color: #222222; /* Slightly Darker Gray for Headings */
+
+  /* Borders and Shadows */
+  --border-color: #d1d5db; /* Medium Gray for Borders */
+  --shadow-color: rgba(0, 0, 0, 0.1); /* Subtle Shadow Color */
+
+  /* Hover and Active States */
+  --hover-color: #3a80c0; /* Slightly Darker Blue for Hover States */
+  --active-color: #1b4c91; /* Dark Blue for Active States */
+
+  /* Dark Theme Variables */
+  --primary-color-dark: #1b4c91; /* Darker Friendly Blue */
+  --secondary-color-dark: #507bbf; /* Soft Complementary Blue on Dark */
+  --accent-color-dark: #3a80c0; /* Vibrant Blue for Dark Theme Highlights */
+
+  --background-color-dark: #1a1a1a; /* Very Dark Gray for Main Background */
+  --surface-color-dark: #2a2a2a; /* Darker Gray for Card Backgrounds */
+
+  --text-color-dark: #e5e5e5; /* Very Light Gray for Main Text */
+  --muted-text-color-dark: #aaaaaa; /* Lighter Gray for Muted Text */
+  --heading-color-dark: #ffffff; /* White for Headings */
+
+  --border-color-dark: #444b56; /* Darker Gray for Borders */
+  --shadow-color-dark: rgba(0, 0, 0, 0.3); /* Stronger Shadow Color */
+
+  --hover-color-dark: #507bbf; /* Slightly Lighter Blue for Hover States */
+  --active-color-dark: #2a7de1; /* Blue for Active States */
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,56 +51,67 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+/* Dark Theme Media Query */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: var(--primary-color-dark);
+    --secondary-color: var(--secondary-color-dark);
+    --accent-color: var(--accent-color-dark);
+
+    --background-color: var(--background-color-dark);
+    --surface-color: var(--surface-color-dark);
+
+    --text-color: var(--text-color-dark);
+    --muted-text-color: var(--muted-text-color-dark);
+    --heading-color: var(--heading-color-dark);
+
+    --border-color: var(--border-color-dark);
+    --shadow-color: var(--shadow-color-dark);
+
+    --hover-color: var(--hover-color-dark);
+    --active-color: var(--active-color-dark);
+  }
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--hover-color);
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  background-color: var(--primary-color);
+  color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 4px var(--shadow-color);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+button:hover {
+  background-color: var(--hover-color);
+}
+
+.card {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.muted-text {
+  color: var(--muted-text-color);
 }
