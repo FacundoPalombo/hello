@@ -1,5 +1,5 @@
 .cta {
-  max-width: max-content;
+  min-width: max-content;
   display: block;
   overflow: hidden;
   position: relative;
