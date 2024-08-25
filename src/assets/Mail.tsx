@@ -3,7 +3,7 @@ export default function Mail({ size = "24px" }: { size?: string }) {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 24 24"
       height={size}
       width={size}

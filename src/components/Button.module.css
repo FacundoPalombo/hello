@@ -19,7 +19,7 @@
   box-shadow: none;
   border-radius: 2em;
   padding: 0.5em 1.5em;
-  color: var(--accent-color);
+  color: var(--heading-color);
   box-sizing: border-box;
   font-size: 1em;
   @media screen and (min-width: 640px) {
@@ -45,13 +45,13 @@
 
   background: linear-gradient(
     0deg,
-    var(--primary-color) 0%,
-    var(--secondary-color) 22%,
-    var(--secondary-color) 33%,
-    var(--primary-color) 50%,
-    var(--secondary-color) 66%,
-    var(--secondary-color) 88%,
-    var(--primary-color) 100%
+    var(--secondary-color) 0%,
+    var(--accent-color) 22%,
+    var(--accent-color) 33%,
+    var(--secondary-color) 50%,
+    var(--accent-color) 66%,
+    var(--accent-color) 88%,
+    var(--secondary-color) 100%
   );
 
   animation: spin 3.5s linear infinite;
