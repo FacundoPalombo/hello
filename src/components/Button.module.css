@@ -9,7 +9,7 @@
 
 .cta__button {
   text-decoration: none;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: flex-start;
   gap: 1em;
