@@ -1,13 +1,31 @@
+.hero {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
 .header {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-wrap: wrap;
   gap: 2em;
+  box-sizing: border-box;
+  margin: 0 1em;
+
+  @media screen and (min-width: 430px) {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
   @media screen and (min-width: 640px) {
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
   }
 }
 
