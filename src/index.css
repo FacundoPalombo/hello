@@ -1,50 +1,50 @@
 :root {
   /* Primary Colors */
-  --primary-color: #2a7de1; /* Professional Friendly Blue */
-  --secondary-color: #73a3f3; /* Soft Complementary Blue */
-  --accent-color: #4a90e2; /* Vibrant Blue for Highlights */
+  --primary-color: #1a659e; /* Professional Friendly Blue */
+  --secondary-color: #ff6b35; /* Soft Complementary Orange */
+  --accent-color: #efefd0; /* Vibrant Orange for Highlights */
 
   /* Backgrounds */
   --background-color: #f5f7fa; /* Light Gray for Main Background */
   --surface-color: #ffffff; /* White for Card Backgrounds */
 
   /* Text Colors */
-  --text-color: #333333; /* Dark Gray for Main Text */
+  --text-color: #222222; /* Dark Black for Main Text */
   --muted-text-color: #666666; /* Medium Gray for Muted Text */
-  --heading-color: #222222; /* Slightly Darker Gray for Headings */
+  --heading-color: #ee7d27; /* Slightly Darker Orange for Headings */
 
   /* Borders and Shadows */
   --border-color: #d1d5db; /* Medium Gray for Borders */
   --shadow-color: rgba(0, 0, 0, 0.1); /* Subtle Shadow Color */
 
   /* Hover and Active States */
-  --hover-color: #3a80c0; /* Slightly Darker Blue for Hover States */
-  --active-color: #1b4c91; /* Dark Blue for Active States */
+  --hover-color: #248cdb; /* Slightly Darker Blue for Hover States */
+  --active-color: #4b4be8; /* Dark Blue for Active States */
 
   /* Dark Theme Variables */
-  --primary-color-dark: #1b4c91; /* Darker Friendly Blue */
-  --secondary-color-dark: #507bbf; /* Soft Complementary Blue on Dark */
-  --accent-color-dark: #3a80c0; /* Vibrant Blue for Dark Theme Highlights */
+  --primary-color-dark: #1a659e; /* Darker Friendly Blue */
+  --secondary-color-dark: #ff6b35; /* Soft Complementary Orange on Dark */
+  --accent-color-dark: #efefd0; /* Vibrant Orange for Dark Theme Highlights */
 
   --background-color-dark: #1a1a1a; /* Very Dark Gray for Main Background */
   --surface-color-dark: #2a2a2a; /* Darker Gray for Card Backgrounds */
 
-  --text-color-dark: #e5e5e5; /* Very Light Gray for Main Text */
+  --text-color-dark: #fafafa; /* Very Light Gray for Main Text */
   --muted-text-color-dark: #aaaaaa; /* Lighter Gray for Muted Text */
-  --heading-color-dark: #ffffff; /* White for Headings */
+  --heading-color-dark: #f7c59f; /* Orange for Headings */
 
   --border-color-dark: #444b56; /* Darker Gray for Borders */
   --shadow-color-dark: rgba(0, 0, 0, 0.3); /* Stronger Shadow Color */
 
-  --hover-color-dark: #507bbf; /* Slightly Lighter Blue for Hover States */
-  --active-color-dark: #2a7de1; /* Blue for Active States */
-
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --hover-color-dark: #248cdb; /* Slightly Lighter Blue for Hover States */
+  --active-color-dark: #1515e9; /* Blue for Active States */
 
   color-scheme: light dark;
 
+  color: var(--text-color);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -78,6 +78,11 @@ body {
   color: var(--text-color);
 }
 
+em {
+  color: var(--secondary-color);
+  font-style: normal;
+}
+
 h1,
 h2,
 h3,
@@ -97,9 +102,11 @@ a:hover {
 
 button {
   background-color: var(--primary-color);
-  color: var(--surface-color);
+  color: var(--text-color);
   border: 1px solid var(--border-color);
   box-shadow: 0 2px 4px var(--shadow-color);
+  padding: 0.75em 1.25em;
+  border-radius: 1px;
 }
 
 button:hover {

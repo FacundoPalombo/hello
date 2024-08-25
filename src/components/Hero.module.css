@@ -1,0 +1,38 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2em;
+  @media screen and (min-width: 640px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.header__picture {
+  width: 150px;
+  height: 150px;
+}
+
+.titleGroup {
+  max-width: 32em;
+}
+
+.title {
+  font-size: xx-large;
+  @media screen and (min-width: 640px) {
+    font-size: xxx-large;
+  }
+}
+.subtitle {
+  font-size: x-large;
+  @media screen and (min-width: 640px) {
+    font-size: xx-large;
+  }
+}
+
+.callsToAction {
+  display: flex;
+  gap: 1em;
+}
