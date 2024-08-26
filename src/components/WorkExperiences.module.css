@@ -1,4 +1,10 @@
-.heading {
+.workExperiences {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.workExperiences__heading {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
@@ -11,9 +17,17 @@
   }
 }
 
-.workExperiences {
-  overflow: hidden;
-  display: block;
+.workExperiences__list {
   position: relative;
-  box-sizing: border-box;
+  display: block;
+
+  &::before {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    content: "";
+    height: 100%;
+    border: solid 1px var(--secondary-color);
+    margin-top: 8px;
+  }
 }
