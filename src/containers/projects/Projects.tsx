@@ -4,17 +4,7 @@ import styles from "./Projects.module.css";
 import Button, { ButtonProps } from "../../components/Button";
 import Pill from "../../components/Pill";
 import successCases from "../../fixtures/SuccessCases.fixture";
-
-function Title() {
-  const { t } = useTranslation();
-
-  return (
-    <h2 className={styles.projects__title}>
-      <Code />
-      {t("Casos de éxito")}
-    </h2>
-  );
-}
+import Title from "../../components/Title";
 
 export type SuccessCaseProps = {
   image: string;
@@ -65,9 +55,14 @@ function SuccessCase({
 }
 
 export default function Projects() {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.projects}>
-      <Title />
+      <Title>
+        <Code />
+        {t("Casos de éxito")}
+      </Title>
       {successCases.map(
         ({
           description,

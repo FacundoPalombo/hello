@@ -1,6 +1,7 @@
 import { useTranslation, Trans } from "react-i18next";
 import styles from "./Hero.module.css";
 import Button from "../../components/Button";
+import profilePicture from "../../assets/profile.webp";
 
 import {
   RiGithubLine as GitHub,
@@ -14,11 +15,13 @@ export default function Hero() {
   const Heading = () => {
     return (
       <div className={styles.header}>
-        <img
-          className={styles.header__picture}
-          src="https://avatars.githubusercontent.com/u/46170142?s=200&v=4"
-          alt="Facundo"
-        />
+        <span className={styles.header__pictureContainer}>
+          <img
+            className={styles.header__picture}
+            src={profilePicture}
+            alt="Facundo"
+          />
+        </span>
         <Button href="https://www.linkedin.com/in/facundopalombo/" highlighted>
           {t("Disponible para trabajar")}
         </Button>

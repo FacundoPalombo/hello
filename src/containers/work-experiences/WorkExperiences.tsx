@@ -4,15 +4,16 @@ import styles from "./WorkExperiences.module.css";
 import { RiBriefcase2Line as Case } from "react-icons/ri";
 import MercadoLibre from "../../assets/MercadoLibre";
 import Globant from "../../assets/Globant";
+import Title from "../../components/Title";
 
 export default function WorkExperiences() {
   const { t } = useTranslation();
   return (
     <section className={styles.workExperiences}>
-      <h2 className={styles.workExperiences__heading}>
+      <Title>
         <Case size={24} />
         {t("Experiencia laboral")}
-      </h2>
+      </Title>
       <div className={styles.workExperiences__list}>
         <Experience
           title={t("Senior Software Engineer")}
