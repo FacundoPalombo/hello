@@ -1,1 +1,0 @@
-export { RiReactjsFill as default } from "react-icons/ri";

@@ -1,0 +1,1 @@
+export { SiLaravel as default } from "react-icons/si";

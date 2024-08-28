@@ -1,0 +1,1 @@
+export { SiPostgresql as default } from "react-icons/si";

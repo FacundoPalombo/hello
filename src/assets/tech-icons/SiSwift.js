@@ -1,0 +1,1 @@
+export { SiSwift as default } from "react-icons/si";

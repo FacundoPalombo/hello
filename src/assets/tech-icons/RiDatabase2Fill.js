@@ -1,1 +1,0 @@
-export { RiDatabase2Fill as default } from "react-icons/ri";

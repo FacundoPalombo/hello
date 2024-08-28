@@ -1,7 +1,8 @@
-import Hero from "./components/Hero.tsx";
+import Hero from "./containers/hero/Hero.tsx";
 import "./App.css";
-import WorkExperiences from "./components/WorkExperiences.tsx";
-import Projects from "./components/Projects.tsx";
+import WorkExperiences from "./containers/work-experiences/WorkExperiences.tsx";
+import Projects from "./containers/projects/Projects.tsx";
+import AboutMe from "./containers/about-me/AboutMe.tsx";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <WorkExperiences />
       <Projects />
+      <AboutMe />
     </main>
   );
 }

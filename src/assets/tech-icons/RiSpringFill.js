@@ -1,1 +1,0 @@
-export { RiSpringFill as default } from "react-icons/ri";

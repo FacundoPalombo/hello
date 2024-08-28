@@ -1,0 +1,1 @@
+export { SiFigma as default } from "react-icons/si";

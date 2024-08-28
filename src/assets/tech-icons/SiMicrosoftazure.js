@@ -1,0 +1,1 @@
+export { SiMicrosoftazure as default } from "react-icons/si";

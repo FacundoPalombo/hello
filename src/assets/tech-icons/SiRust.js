@@ -1,0 +1,1 @@
+export { SiRust as default } from "react-icons/si";

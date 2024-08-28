@@ -1,0 +1,1 @@
+export { SiOracle as default } from "react-icons/si";

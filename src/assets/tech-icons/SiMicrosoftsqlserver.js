@@ -1,0 +1,1 @@
+export { SiMicrosoftsqlserver as default } from "react-icons/si";

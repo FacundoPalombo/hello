@@ -1,0 +1,1 @@
+export { SiFirebase as default } from "react-icons/si";

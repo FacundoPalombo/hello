@@ -1,0 +1,1 @@
+export { SiGit as default } from "react-icons/si";

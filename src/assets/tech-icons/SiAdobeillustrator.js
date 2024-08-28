@@ -1,0 +1,1 @@
+export { SiAdobeillustrator as default } from "react-icons/si";

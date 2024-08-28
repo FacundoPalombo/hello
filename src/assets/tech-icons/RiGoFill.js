@@ -1,1 +1,0 @@
-export { RiGoFill as default } from "react-icons/ri";

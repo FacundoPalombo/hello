@@ -1,0 +1,1 @@
+export { SiAdobephotoshop as default } from "react-icons/si";

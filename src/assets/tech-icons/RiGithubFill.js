@@ -1,1 +1,0 @@
-export { RiGithubFill as default } from "react-icons/ri";

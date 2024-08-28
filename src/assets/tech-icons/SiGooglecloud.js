@@ -1,0 +1,1 @@
+export { SiGooglecloud as default } from "react-icons/si";

@@ -1,1 +1,0 @@
-export { RiBitbucketFill as default } from "react-icons/ri";

@@ -1,0 +1,1 @@
+export { SiGo as default } from "react-icons/si";

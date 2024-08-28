@@ -1,0 +1,1 @@
+export { SiDotnet as default } from "react-icons/si";

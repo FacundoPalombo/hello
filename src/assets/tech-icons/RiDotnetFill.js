@@ -1,1 +1,0 @@
-export { RiDotnetFill as default } from "react-icons/ri";

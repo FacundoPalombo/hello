@@ -1,0 +1,1 @@
+export { SiRuby as default } from "react-icons/si";

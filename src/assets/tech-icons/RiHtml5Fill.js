@@ -1,1 +1,0 @@
-export { RiHtml5Fill as default } from "react-icons/ri";

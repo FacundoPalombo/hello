@@ -1,0 +1,1 @@
+export { SiAdobexd as default } from "react-icons/si";

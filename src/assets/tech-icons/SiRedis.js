@@ -1,0 +1,1 @@
+export { SiRedis as default } from "react-icons/si";

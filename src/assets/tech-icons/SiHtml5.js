@@ -1,0 +1,1 @@
+export { SiHtml5 as default } from "react-icons/si";

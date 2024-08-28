@@ -1,0 +1,1 @@
+export { SiPython as default } from "react-icons/si";

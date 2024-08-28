@@ -1,4 +1,4 @@
-import React, { ReactNode, Suspense, useState } from "react";
+import React, { Suspense, useState } from "react";
 import icons from "../assets/tech-icons/icons.json";
 
 const getIcon = (iconName: string | undefined) => {
@@ -27,6 +27,7 @@ export default function Pill({ name }: { name: string }) {
           gap: "4px",
           alignItems: "center",
           justifyContent: "center",
+          fontSize: "10px",
         }}
       >
         <Suspense>{Icon ? <Icon color="white" size="16px" /> : null}</Suspense>

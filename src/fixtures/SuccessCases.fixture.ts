@@ -1,4 +1,4 @@
-import { SuccessCaseProps } from "../components/Projects";
+import { SuccessCaseProps } from "../containers/projects/Projects";
 import tpImage from "../assets/tp.jpg";
 
 const successCaseMocks: SuccessCaseProps[] = [
@@ -43,7 +43,7 @@ const successCaseMocks: SuccessCaseProps[] = [
   {
     image: tpImage,
     title: "AI-Powered Analytics Dashboard",
-    technologies: ["python", "django", "react", "tensorflow"],
+    technologies: ["python", "django", "react", "tensorflow", "jira"],
     description:
       "Created an AI-powered analytics dashboard that provides real-time insights and predictions based on large datasets. This solution helped the client increase decision-making speed and accuracy.",
     links: [

@@ -1,0 +1,1 @@
+export { SiCss3 as default } from "react-icons/si";

@@ -1,0 +1,1 @@
+export { SiKotlin as default } from "react-icons/si";
