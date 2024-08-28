@@ -1,0 +1,1 @@
+export { RiGitlabFill as default } from "react-icons/ri";

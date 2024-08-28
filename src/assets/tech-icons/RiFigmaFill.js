@@ -1,0 +1,1 @@
+export { RiFigmaFill as default } from "react-icons/ri";

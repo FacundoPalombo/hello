@@ -1,0 +1,1 @@
+export { RiAppleFill as default } from "react-icons/ri";

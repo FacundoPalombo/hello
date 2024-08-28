@@ -1,0 +1,1 @@
+export { RiLaravelFill as default } from "react-icons/ri";

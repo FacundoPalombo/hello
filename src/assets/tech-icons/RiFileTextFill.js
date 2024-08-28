@@ -1,0 +1,1 @@
+export { RiFileTextFill as default } from "react-icons/ri";

@@ -1,0 +1,1 @@
+export { RiSymfonyFill as default } from "react-icons/ri";

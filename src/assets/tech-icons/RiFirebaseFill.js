@@ -1,0 +1,1 @@
+export { RiFirebaseFill as default } from "react-icons/ri";

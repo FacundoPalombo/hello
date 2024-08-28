@@ -73,6 +73,7 @@
 }
 .heading__details {
 }
+
 .details {
   display: inline-block;
   box-sizing: content-box;
@@ -80,5 +81,6 @@
   @media screen and (min-width: 640px) {
     padding: 0;
     min-width: 320px;
+    max-width: 650px;
   }
 }

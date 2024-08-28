@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Button.module.css";
 import { clsx } from "clsx";
 
-type ButtonProps = {
+export type ButtonProps = {
   children: React.ReactNode | undefined;
   href?: string;
   className?: string;

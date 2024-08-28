@@ -1,0 +1,1 @@
+export { RiRailsFill as default } from "react-icons/ri";

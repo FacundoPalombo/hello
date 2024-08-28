@@ -1,0 +1,296 @@
+[
+  {
+    "name": "tailwindcss",
+    "title": "Tailwind CSS",
+    "icon": "RiTailwindCssFill",
+    "color": "#38bdf8"
+  },
+  {
+    "name": "react",
+    "title": "React",
+    "icon": "RiReactjsFill",
+    "color": "#61dafb"
+  },
+  {
+    "name": "nodejs",
+    "title": "Node.js",
+    "icon": "RiNodejsFill",
+    "color": "#339933"
+  },
+  {
+    "name": "typescript",
+    "title": "TypeScript",
+    "icon": "RiTypescript",
+    "color": "#3178c6"
+  },
+  {
+    "name": "javascript",
+    "title": "JavaScript",
+    "icon": "RiJavascriptFill",
+    "color": "#f7df1e"
+  },
+  {
+    "name": "html",
+    "title": "HTML5",
+    "icon": "RiHtml5Fill",
+    "color": "#e34f26"
+  },
+  {
+    "name": "css",
+    "title": "CSS3",
+    "icon": "RiCss3Fill",
+    "color": "#1572b6"
+  },
+  {
+    "name": "python",
+    "title": "Python",
+    "icon": "RiPythonFill",
+    "color": "#3776ab"
+  },
+  {
+    "name": "django",
+    "title": "Django",
+    "icon": "RiDjangoFill",
+    "color": "#092e20"
+  },
+  {
+    "name": "flask",
+    "title": "Flask",
+    "icon": "RiFlaskFill",
+    "color": "#000000"
+  },
+  {
+    "name": "ruby",
+    "title": "Ruby",
+    "icon": "RiRubyFill",
+    "color": "#cc342d"
+  },
+  {
+    "name": "rails",
+    "title": "Ruby on Rails",
+    "icon": "RiRailsFill",
+    "color": "#cc0000"
+  },
+  {
+    "name": "java",
+    "title": "Java",
+    "icon": "RiJavaFill",
+    "color": "#007396"
+  },
+  {
+    "name": "spring",
+    "title": "Spring",
+    "icon": "RiSpringFill",
+    "color": "#6db33f"
+  },
+  {
+    "name": "kotlin",
+    "title": "Kotlin",
+    "icon": "RiKotlinFill",
+    "color": "#7f52ff"
+  },
+  {
+    "name": "android",
+    "title": "Android",
+    "icon": "RiAndroidFill",
+    "color": "#3ddc84"
+  },
+  {
+    "name": "swift",
+    "title": "Swift",
+    "icon": "RiAppleFill",
+    "color": "#fa7343"
+  },
+  {
+    "name": "ios",
+    "title": "iOS",
+    "icon": "RiAppleFill",
+    "color": "#000000"
+  },
+  {
+    "name": "csharp",
+    "title": "C#",
+    "icon": "RiCsharpFill",
+    "color": "#239120"
+  },
+  {
+    "name": "dotnet",
+    "title": ".NET",
+    "icon": "RiDotnetFill",
+    "color": "#512bd4"
+  },
+  {
+    "name": "go",
+    "title": "Go",
+    "icon": "RiGoFill",
+    "color": "#00add8"
+  },
+  {
+    "name": "rust",
+    "title": "Rust",
+    "icon": "RiRustFill",
+    "color": "#dea584"
+  },
+  {
+    "name": "php",
+    "title": "PHP",
+    "icon": "RiPhpFill",
+    "color": "#777bb4"
+  },
+  {
+    "name": "laravel",
+    "title": "Laravel",
+    "icon": "RiLaravelFill",
+    "color": "#ff2d20"
+  },
+  {
+    "name": "symfony",
+    "title": "Symfony",
+    "icon": "RiSymfonyFill",
+    "color": "#000000"
+  },
+  {
+    "name": "postgresql",
+    "title": "PostgreSQL",
+    "icon": "RiDatabase2Fill",
+    "color": "#336791"
+  },
+  {
+    "name": "mysql",
+    "title": "MySQL",
+    "icon": "RiDatabase2Fill",
+    "color": "#00758f"
+  },
+  {
+    "name": "mongodb",
+    "title": "MongoDB",
+    "icon": "RiDatabase2Fill",
+    "color": "#47a248"
+  },
+  {
+    "name": "graphql",
+    "title": "GraphQL",
+    "icon": "RiGraphqlFill",
+    "color": "#e10098"
+  },
+  {
+    "name": "redis",
+    "title": "Redis",
+    "icon": "RiDatabase2Fill",
+    "color": "#dc382d"
+  },
+  {
+    "name": "oracle",
+    "title": "Oracle Database",
+    "icon": "RiDatabase2Fill",
+    "color": "#f80000"
+  },
+  {
+    "name": "sqlserver",
+    "title": "SQL Server",
+    "icon": "RiDatabase2Fill",
+    "color": "#cc2927"
+  },
+  {
+    "name": "jira",
+    "title": "JIRA",
+    "icon": "RiToolsFill",
+    "color": "#0052cc"
+  },
+  {
+    "name": "confluence",
+    "title": "Confluence",
+    "icon": "RiToolsFill",
+    "color": "#172b4d"
+  },
+  {
+    "name": "docker",
+    "title": "Docker",
+    "icon": "RiDockerFill",
+    "color": "#2496ed"
+  },
+  {
+    "name": "kubernetes",
+    "title": "Kubernetes",
+    "icon": "RiKubernetesFill",
+    "color": "#326ce5"
+  },
+  {
+    "name": "aws",
+    "title": "AWS",
+    "icon": "RiCloudFill",
+    "color": "#ff9900"
+  },
+  {
+    "name": "azure",
+    "title": "Azure",
+    "icon": "RiCloudFill",
+    "color": "#0089d6"
+  },
+  {
+    "name": "gcp",
+    "title": "Google Cloud",
+    "icon": "RiCloudFill",
+    "color": "#4285f4"
+  },
+  {
+    "name": "firebase",
+    "title": "Firebase",
+    "icon": "RiFirebaseFill",
+    "color": "#ffca28"
+  },
+  {
+    "name": "heroku",
+    "title": "Heroku",
+    "icon": "RiHerokuFill",
+    "color": "#430098"
+  },
+  {
+    "name": "git",
+    "title": "Git",
+    "icon": "RiGitBranchFill",
+    "color": "#f05032"
+  },
+  {
+    "name": "github",
+    "title": "GitHub",
+    "icon": "RiGithubFill",
+    "color": "#181717"
+  },
+  {
+    "name": "gitlab",
+    "title": "GitLab",
+    "icon": "RiGitlabFill",
+    "color": "#fc6d26"
+  },
+  {
+    "name": "bitbucket",
+    "title": "Bitbucket",
+    "icon": "RiBitbucketFill",
+    "color": "#0052cc"
+  },
+  {
+    "name": "figma",
+    "title": "Figma",
+    "icon": "RiFigmaFill",
+    "color": "#f24e1e"
+  },
+  {
+    "name": "adobexd",
+    "title": "Adobe XD",
+    "icon": "RiAdobexdFill",
+    "color": "#ff61f6"
+  },
+  {
+    "name": "photoshop",
+    "title": "Adobe Photoshop",
+    "icon": "RiPhotoshopFill",
+    "color": "#31a8ff"
+  },
+  {
+    "name": "illustrator",
+    "title": "Adobe Illustrator",
+    "icon": "RiIllustratorFill",
+    "color": "#ff9a00"
+  }
+]

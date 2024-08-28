@@ -1,9 +1,12 @@
 import { useTranslation, Trans } from "react-i18next";
 import styles from "./Hero.module.css";
 import Button from "./Button";
-import Linkedin from "../assets/Linkedin";
-import Mail from "../assets/Mail";
-import GitHub from "../assets/GitHub";
+
+import {
+  RiGithubLine as GitHub,
+  RiMailLine as Mail,
+  RiLinkedinLine as Linkedin,
+} from "react-icons/ri";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -56,7 +59,7 @@ export default function Hero() {
           href="https://github.com/FacundoPalombo"
           className={styles.link}
         >
-          <GitHub />
+          <GitHub size={24} />
           {t("Sígueme en GitHub")}
         </Button>
       </section>

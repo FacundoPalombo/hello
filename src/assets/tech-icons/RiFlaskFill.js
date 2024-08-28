@@ -1,0 +1,1 @@
+export { RiFlaskFill as default } from "react-icons/ri";

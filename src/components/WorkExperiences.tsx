@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Experience from "./Experience";
 import styles from "./WorkExperiences.module.css";
-import Case from "../assets/Case";
+import { RiBriefcase2Line as Case } from "react-icons/ri";
 import MercadoLibre from "../assets/MercadoLibre";
 import Globant from "../assets/Globant";
 
@@ -10,7 +10,7 @@ export default function WorkExperiences() {
   return (
     <section className={styles.workExperiences}>
       <h2 className={styles.workExperiences__heading}>
-        <Case />
+        <Case size={24} />
         {t("Experiencia laboral")}
       </h2>
       <div className={styles.workExperiences__list}>
