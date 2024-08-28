@@ -58,29 +58,31 @@ export default function Projects() {
   const { t } = useTranslation();
 
   return (
-    <section className={styles.projects}>
+    <section id="projects" className={styles.projects}>
       <Title>
         <Code />
         {t("Casos de éxito")}
       </Title>
-      {successCases.map(
-        ({
-          description,
-          image,
-          links,
-          technologies,
-          title,
-        }: SuccessCaseProps) => (
-          <SuccessCase
-            key={title}
-            description={description}
-            image={image}
-            links={links}
-            technologies={technologies}
-            title={title}
-          />
-        )
-      )}
+      <div className={styles.projects__list}>
+        {successCases.map(
+          ({
+            description,
+            image,
+            links,
+            technologies,
+            title,
+          }: SuccessCaseProps) => (
+            <SuccessCase
+              key={title}
+              description={description}
+              image={image}
+              links={links}
+              technologies={technologies}
+              title={title}
+            />
+          )
+        )}
+      </div>
     </section>
   );
 }

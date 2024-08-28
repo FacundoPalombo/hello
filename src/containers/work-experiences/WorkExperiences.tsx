@@ -9,7 +9,7 @@ import Title from "../../components/Title";
 export default function WorkExperiences() {
   const { t } = useTranslation();
   return (
-    <section className={styles.workExperiences}>
+    <section id="work-experience" className={styles.workExperiences}>
       <Title>
         <Case size={24} />
         {t("Experiencia laboral")}

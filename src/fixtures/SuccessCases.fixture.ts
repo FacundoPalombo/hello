@@ -1,5 +1,5 @@
 import { SuccessCaseProps } from "../containers/projects/Projects";
-import tpImage from "../assets/tp.jpg";
+import tpImage from "../assets/tp.webp";
 
 const successCaseMocks: SuccessCaseProps[] = [
   {

@@ -1,11 +1,11 @@
 :root {
   /* Primary Colors */
   --primary-color: #ff6b35; /* Soft Complementary Orange */
-  --secondary-color: #1a659e; /* Professional Friendly Blue */
+  --secondary-color: #f5d12d; /* Professional Friendly Yellow */
   --accent-color: #095fa0; /* Vibrant Orange for Highlights */
 
   /* Backgrounds */
-  --background-color: #f5f7fa; /* Light Gray for Main Background */
+  --background-color: #fff; /* Light Gray for Main Background */
   --surface-color: #ffffff; /* White for Card Backgrounds */
 
   /* Text Colors */
