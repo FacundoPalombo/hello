@@ -10,7 +10,7 @@ export default function MercadoLibre({ size = "36px" }: { size?: string }) {
       <clipPath id="SVGID_2_">
         <use href="#SVGID_1_" overflow="visible" />
       </clipPath>
-      <g clip-path="url(#SVGID_2_)">
+      <g clipPath="url(#SVGID_2_)">
         <path d="M-13-13h211.3v155.9H-13z" />
       </g>
       <defs>
@@ -22,7 +22,7 @@ export default function MercadoLibre({ size = "36px" }: { size?: string }) {
       <clipPath id="SVGID_4_">
         <use href="#SVGID_3_" overflow="visible" />
       </clipPath>
-      <g clip-path="url(#SVGID_4_)">
+      <g clipPath="url(#SVGID_4_)">
         <path fill="#fdd100" d="M-8.7-9.9H194V133H-8.7z" />
       </g>
       <defs>
@@ -34,7 +34,7 @@ export default function MercadoLibre({ size = "36px" }: { size?: string }) {
       <clipPath id="SVGID_6_">
         <use href="#SVGID_5_" overflow="visible" />
       </clipPath>
-      <g clip-path="url(#SVGID_6_)">
+      <g clipPath="url(#SVGID_6_)">
         <path fill="#fff" d="M-8.9 8.5h203.2v106.3H-8.9z" />
       </g>
       <defs>
@@ -46,7 +46,7 @@ export default function MercadoLibre({ size = "36px" }: { size?: string }) {
       <clipPath id="SVGID_8_">
         <use href="#SVGID_7_" overflow="visible" />
       </clipPath>
-      <g clip-path="url(#SVGID_8_)">
+      <g clipPath="url(#SVGID_8_)">
         <path d="M-9.5 5.6h204.3v112.2H-9.5z" />
       </g>
     </svg>
