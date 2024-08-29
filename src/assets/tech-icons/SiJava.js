@@ -1,1 +1,1 @@
-export { SiSpringboot as default } from "react-icons/si";
+export { FaJava as default } from "react-icons/fa";
