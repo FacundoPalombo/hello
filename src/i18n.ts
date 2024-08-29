@@ -4,6 +4,7 @@ import detector from "i18next-browser-languagedetector";
 
 import translationENG from "./locales/en/translation.json";
 import translationITA from "./locales/it/translation.json";
+import translationSPA from "./locales/es/translation.json";
 
 i18n
   .use(detector)
@@ -13,8 +14,14 @@ i18n
     resources: {
       it: translationITA as ResourceLanguage,
       en: translationENG as ResourceLanguage,
+      es: translationSPA as ResourceLanguage,
     },
-    fallbackLng: "es",
+    fallbackLng: {
+      "de-CH": ["it", "en"],
+      fr: "en",
+      "es-ES": "es",
+      default: ["es", "en"],
+    },
 
     interpolation: {
       escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape

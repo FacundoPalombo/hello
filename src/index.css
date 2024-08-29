@@ -73,6 +73,27 @@
   }
 }
 
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background-color);
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 8px;
+  border: 1px solid #828282;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--secondary-color) var(--background-color);
+  }
+}
+
 body {
   margin: 1em;
   background-color: var(--background-color);

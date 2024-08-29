@@ -19,7 +19,9 @@ export default function Pill({ name }: { name: string }) {
         style={{
           backgroundColor: icon ? icon.color : "#fafafa",
           border: `1px solid ${icon ? icon.color + "aa" : "#fafafaaa"}`,
+          color: "white",
           filter: "drop-shadow(0 0 6px rgba(0, 0, 0, 0.3))",
+          textShadow: "0 0 6px rgba(0, 0, 0, 0.4)",
           borderRadius: "1em",
           padding: "2px 6px",
           display: "inline-flex",

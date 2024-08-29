@@ -27,6 +27,25 @@
     gap: 6em;
     height: max-content;
   }
+
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--background-color);
+    border-radius: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+    border-radius: 8px;
+    border: 1px solid #828282;
+  }
+
+  @supports not selector(::-webkit-scrollbar) {
+    scrollbar-color: var(--secondary-color) var(--background-color);
+  }
 }
 .successCase__container {
   width: 100%;
