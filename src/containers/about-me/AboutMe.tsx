@@ -22,22 +22,23 @@ export default function AboutMe() {
         </div>
         <div className={styles.aboutMe__description}>
           <p className={styles.aboutMe__contentText}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            facere molestias accusamus, temporibus ab aliquid ducimus rerum ad
-            repellendus nam architecto doloribus, similique, expedita ex quidem
-            commodi quaerat id rem.
+            {t(
+              "¡Hola! Soy Facundo, y me encanta el mundo del desarrollo frontend! Soy una persona naturalmente curiosa, cuando me encuentro con un problema que puede tener una solución tecnológica, me obsesiono para encontrar la solución."
+            )}
           </p>
           <p className={styles.aboutMe__contentText}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempora
-            ad quo saepe consequatur molestiae, odit mollitia quas voluptate? In
-            repudiandae possimus sapiente totam illo cumque temporibus, minima
-            soluta nihil?
+            {t(
+              "Amo el mundo del desarrollo de software, me considero un especialista frontend, pero mis intereses son varios. Me gusta la arquitectura de software, el liderazgo técnico, las metodologías agiles, el desarrollo backend, y muchas otras cosas más."
+            )}
           </p>
           <p className={styles.aboutMe__contentText}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-            voluptatum cumque ut perferendis in velit. Nihil animi quo beatae
-            doloribus, vel iusto reprehenderit nemo corrupti accusamus magnam
-            libero quis suscipit.
+            {t(
+              "¡Siempre estoy en búsqueda de nuevos desafíos! ¡Y considero que todos los días es una oportunidad para aprender algo nuevo!"
+            )}
+            <br />
+            <strong>
+              {t("Conectemos y veamos a donde nos lleva este viaje inesperado")}
+            </strong>
           </p>
         </div>
       </div>
