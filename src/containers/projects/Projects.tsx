@@ -5,6 +5,7 @@ import Button, { ButtonProps } from "../../components/Button";
 import Pill from "../../components/Pill";
 import cases from "./cases";
 import Title from "../../components/Title";
+import SeeMore from "../../components/SeeMore";
 
 export type SuccessCaseProps = {
   image: string;
@@ -35,7 +36,9 @@ function SuccessCase({
             ))}
           </div>
         )}
-        <p className={styles.successCase__description}>{description}</p>
+        <p className={styles.successCase__description}>
+          <SeeMore text={description} />
+        </p>
         {links?.length > 0 && (
           <div className={styles.successCase__links}>
             {links.map(({ href, children }) => (

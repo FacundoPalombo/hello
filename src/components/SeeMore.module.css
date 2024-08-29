@@ -1,0 +1,20 @@
+.seeMore {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.seeMore__button {
+  padding: 0;
+  background: none;
+  display: inline-block;
+  background-color: none;
+  border: none;
+
+  margin: 0 0 0 4px;
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: underline;
+  color: var(--hover-color);
+  cursor: pointer;
+}
