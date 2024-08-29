@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 import styles from "./SeeMore.module.css";
 import { useTranslation } from "react-i18next";
 
@@ -7,7 +7,7 @@ export default function SeeMore({
   threshold = 240,
 }: {
   text: string;
-  threshold: number;
+  threshold?: number;
 }) {
   const { t } = useTranslation();
   const [visibleText, setVisibleText] = useState(text);
@@ -15,7 +15,7 @@ export default function SeeMore({
 
   useEffect(() => {
     setVisibleText(isVisible ? text : text.slice(0, threshold) + "...");
-  }, [isVisible]);
+  }, [isVisible, text, threshold]);
 
   const changeTextVisibility = useCallback(() => {
     setIsVisible(!isVisible);

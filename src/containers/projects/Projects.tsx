@@ -22,13 +22,14 @@ function SuccessCase({
   description,
   links,
 }: SuccessCaseProps) {
+  const { t } = useTranslation();
   return (
     <div className={styles.successCase__container}>
       <div className={styles.successCase__image}>
         <img src={image} alt={title} className={styles.successCase__picture} />
       </div>
       <div className={styles.successCase__content}>
-        <h3 className={styles.successCase__title}>{title}</h3>
+        <h3 className={styles.successCase__title}>{t(title)}</h3>
         {technologies?.length > 0 && (
           <div className={styles.successCase__pills}>
             {technologies.map((technology) => (
@@ -37,7 +38,7 @@ function SuccessCase({
           </div>
         )}
         <p className={styles.successCase__description}>
-          <SeeMore text={description} />
+          <SeeMore text={t(description)} />
         </p>
         {links?.length > 0 && (
           <div className={styles.successCase__links}>

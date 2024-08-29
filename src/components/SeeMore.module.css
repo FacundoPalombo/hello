@@ -17,4 +17,7 @@
   text-decoration: underline;
   color: var(--hover-color);
   cursor: pointer;
+  &:hover {
+    background-color: transparent;
+  }
 }
