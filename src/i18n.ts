@@ -16,12 +16,7 @@ i18n
       en: translationENG as ResourceLanguage,
       es: translationSPA as ResourceLanguage,
     },
-    fallbackLng: {
-      "de-CH": ["it", "en"],
-      fr: "en",
-      "es-ES": "es",
-      default: ["es", "en"],
-    },
+    fallbackLng: ["es", "en", "it"],
 
     interpolation: {
       escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape

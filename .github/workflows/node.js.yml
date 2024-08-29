@@ -35,7 +35,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
-
       - run: pnpm run build --if-present
         # Deploy job
   deploy:

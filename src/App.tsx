@@ -3,7 +3,6 @@ import "./App.css";
 import WorkExperiences from "./containers/work-experiences/WorkExperiences.tsx";
 import Projects from "./containers/projects/Projects.tsx";
 import AboutMe from "./containers/about-me/AboutMe.tsx";
-import Navbar from "./containers/nav-bar/Navbar.tsx";
 import LanguageSelector from "./components/LanguageSelector.tsx";
 
 function App() {

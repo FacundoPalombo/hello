@@ -8,7 +8,7 @@ import UK from "../assets/UK";
 import { useState } from "react";
 
 export default function LanguageSelector() {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   console.log(i18n.language);
 
