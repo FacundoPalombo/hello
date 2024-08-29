@@ -35,3 +35,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - run: npm run build --if-present
+      - run: npm test
