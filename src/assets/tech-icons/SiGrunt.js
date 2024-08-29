@@ -1,0 +1,1 @@
+export { SiGrunt as default } from "react-icons/si";

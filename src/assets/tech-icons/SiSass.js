@@ -1,0 +1,1 @@
+export { SiSass as default } from "react-icons/si";

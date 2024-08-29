@@ -292,5 +292,83 @@
     "title": "Adobe Illustrator",
     "icon": "SiAdobeillustrator",
     "color": "#ff9a00"
+  },
+  {
+    "name": "storybook",
+    "title": "Storybook",
+    "icon": "SiStorybook",
+    "color": "#FF4785"
+  },
+  {
+    "name": "sass",
+    "title": "Sass",
+    "icon": "SiSass",
+    "color": "#CC6699"
+  },
+  {
+    "name": "express",
+    "title": "Express",
+    "icon": "SiExpress",
+    "color": "#000000"
+  },
+  {
+    "name": "preact",
+    "title": "Preact",
+    "icon": "SiPreact",
+    "color": "#673AB8"
+  },
+  {
+    "name": "webpack",
+    "title": "Webpack",
+    "icon": "SiWebpack",
+    "color": "#8DD6F9"
+  },
+  {
+    "name": "nginx",
+    "title": "NGINX",
+    "icon": "SiNginx",
+    "color": "#269539"
+  },
+  {
+    "name": "awss3",
+    "title": "AWS S3",
+    "icon": "SiAmazons3",
+    "color": "#569A31"
+  },
+  {
+    "name": "awscloudfront",
+    "title": "AWS CloudFront",
+    "icon": "SiAmazonaws",
+    "color": "#FF9900"
+  },
+  {
+    "name": "awslambda",
+    "title": "AWS Lambda",
+    "icon": "SiAmazonaws",
+    "color": "#FF9900"
+  },
+  {
+    "name": "rollup",
+    "title": "Rollup.js",
+    "icon": "SiRollupdotjs",
+    "color": "#EC4A3F"
+  },
+  {
+    "name": "redux",
+    "title": "Redux",
+    "icon": "SiRedux",
+    "color": "#764ABC"
+  },
+  {
+    "name": "grunt",
+    "title": "Grunt",
+    "icon": "SiGrunt",
+    "color": "#FBA919"
+  },
+  {
+    "name": "angular",
+    "title": "Angular",
+    "icon": "SiAngular",
+    "color": "#DD0031"
   }
 ]

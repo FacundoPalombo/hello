@@ -36,12 +36,7 @@
   border-radius: 50%;
   overflow: hidden;
 
-  background: radial-gradient(
-    circle,
-    var(--accent-color) 0%,
-    var(--background-color) 80%,
-    var(--background-color) 100%
-  );
+  background: radial-gradient(circle, #095fa0 0%, #095fa0 70%, #1515e9 100%);
 
   width: 130px;
   height: 130px;

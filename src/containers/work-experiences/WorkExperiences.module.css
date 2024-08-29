@@ -1,4 +1,5 @@
 .workExperiences {
+  max-width: 900px;
   display: block;
   position: relative;
   box-sizing: border-box;

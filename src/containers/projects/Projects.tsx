@@ -3,7 +3,7 @@ import { RiCodeSSlashLine as Code } from "react-icons/ri";
 import styles from "./Projects.module.css";
 import Button, { ButtonProps } from "../../components/Button";
 import Pill from "../../components/Pill";
-import successCases from "../../fixtures/SuccessCases.fixture";
+import cases from "./cases";
 import Title from "../../components/Title";
 
 export type SuccessCaseProps = {
@@ -64,7 +64,7 @@ export default function Projects() {
         {t("Casos de éxito")}
       </Title>
       <div className={styles.projects__list}>
-        {successCases.map(
+        {cases.map(
           ({
             description,
             image,

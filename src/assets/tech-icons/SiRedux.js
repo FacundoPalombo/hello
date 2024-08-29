@@ -1,0 +1,1 @@
+export { SiRedux as default } from "react-icons/si";
