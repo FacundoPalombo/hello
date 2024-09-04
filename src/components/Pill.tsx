@@ -1,5 +1,6 @@
 import React, { Suspense, useState } from "react";
 import icons from "../assets/tech-icons/icons.json";
+import getContrastingTextColor from "../utils/getContrastingTextColor";
 
 const getIcon = (iconName: string | undefined) => {
   if (iconName) {
@@ -19,9 +20,9 @@ export default function Pill({ name }: { name: string }) {
         style={{
           backgroundColor: icon ? icon.color : "#fafafa",
           border: `1px solid ${icon ? icon.color + "aa" : "#fafafaaa"}`,
-          color: "white",
-          filter: "drop-shadow(0 0 6px rgba(0, 0, 0, 0.3))",
-          textShadow: "0 0 6px rgba(0, 0, 0, 0.4)",
+          color: `${icon ? getContrastingTextColor(icon.color) : "black"}`,
+          fontWeight: "500",
+          filter: `drop-shadow(0 0 6px rgba(0, 0, 0, 0.3))`,
           borderRadius: "1em",
           padding: "2px 6px",
           display: "inline-flex",
@@ -32,7 +33,11 @@ export default function Pill({ name }: { name: string }) {
           fontSize: "10px",
         }}
       >
-        <Suspense>{Icon ? <Icon color="white" size="16px" /> : null}</Suspense>
+        <Suspense>
+          {Icon ? (
+            <Icon color={getContrastingTextColor(icon.color)} size="16px" />
+          ) : null}
+        </Suspense>
         {icon?.title}
       </span>
     )
