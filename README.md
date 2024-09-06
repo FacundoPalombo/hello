@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# Hola 👋 este es mi sitio web personal.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este sitio está hecho con <3 por mi, inspirado en el web portfolio de @midu.dev, hecho desde 0 en React, con las traducciones en los 3 idiomas que domino: Español, Inglés e Italiano. Disponible en tema claro y oscuro.
 
-Currently, two official plugins are available:
+Puedes verlo desplegado en el siguiente enlace:
+### https://facundopalombo.github.io/hello/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### También te invito a pasarte por mis redes sociales y por mi [perfil de github](https://github.com/FacundoPalombo).
 
-## Expanding the ESLint configuration
+#### Tecnologías en este proyecto: Typescript, Node.js, React, Vite, I18n, GitHub Pages, Github Actions 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+<h2>También puedes encontrarme en:</h2>
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<div style="display:flex; flex-direction: row; align-items: center;justify-content: start;gap: 8px; margin-left: -8px; margin-bottom: 5px;">
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+  <a href="https://www.linkedin.com/in/facundopalombo/" target="_blank">
+  <img src=https://img.shields.io/badge/linkedin-1DA1F2?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin  />
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+  <a href="https://twitter.com/PalomboFacundo" target="_blank">
+  <img src=https://img.shields.io/badge/twitter-1DA1F2?&style=for-the-badge&logo=x&logoColor=white alt=twitter  />
+
+  <a href="https://github.com/facundoPalombo" target="_blank">
+  <img src=https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white alt=github  />
+
+  <a href="mailto:facundo.palombo@gmail.com" target="_blank">
+  <img src=https://img.shields.io/badge/gmail-EA4335?&style=for-the-badge&logo=gmail&logoColor=white alt=gmail  />
+  
+  <a href="https://dev.to/facundopalombo" target="_blank">
+  <img src=https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white alt=dev  />
+</div>
