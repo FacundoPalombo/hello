@@ -10,7 +10,6 @@ import { useState } from "react";
 export default function LanguageSelector() {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
-  console.log(i18n.language);
 
   return (
     <span className={styles.languageSelector}>
