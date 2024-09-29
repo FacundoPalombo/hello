@@ -32,7 +32,7 @@
 
   --text-color-dark: #fafafa; /* Very Light Gray for Main Text */
   --muted-text-color-dark: #aaaaaa; /* Lighter Gray for Muted Text */
-  --link-color-dark: #fafafa; /* Very Light Gray for Main Text */
+  --link-color-dark: #f7c59f; /* Very Light Gray for Main Text */
   --heading-color-dark: #f7c59f; /* Orange for Headings */
 
   --border-color-dark: #444b56; /* Darker Gray for Borders */
@@ -65,6 +65,7 @@
 
     --text-color: var(--text-color-dark);
     --muted-text-color: var(--muted-text-color-dark);
+    --link-color: var(--link-color-dark);
     --heading-color: var(--heading-color-dark);
 
     --border-color: var(--border-color-dark);
