@@ -19,7 +19,7 @@
   box-shadow: none;
   border-radius: 2em;
   padding: 0.25em 0.75em;
-  color: var(--heading-color);
+  color: var(--link-color);
   box-sizing: border-box;
   font-size: 1.25em;
 

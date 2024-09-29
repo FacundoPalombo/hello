@@ -1,25 +1,26 @@
 :root {
   /* Primary Colors */
-  --primary-color: #ff6b35; /* Soft Complementary Orange */
-  --secondary-color: #f5d12d; /* Professional Friendly Yellow */
-  --accent-color: #095fa0; /* Vibrant Orange for Highlights */
+  --primary-color: #095fa0; /* Soft Complementary Orange */
+  --secondary-color: #da6810; /* Professional Friendly Yellow */
+  --accent-color: #da6810; /* Vibrant Orange for Highlights */
 
   /* Backgrounds */
-  --background-color: #fff; /* Light Gray for Main Background */
-  --surface-color: #ffffff; /* White for Card Backgrounds */
+  --background-color: #fafafa; /* Light Gray for Main Background */
+  --surface-color: #da6810; /* White for Card Backgrounds */
 
   /* Text Colors */
   --text-color: #222222; /* Dark Black for Main Text */
   --muted-text-color: #666666; /* Medium Gray for Muted Text */
-  --heading-color: #ee7d27; /* Slightly Darker Orange for Headings */
+  --link-color: #ffffff; /* Dark Black for Main Text */
+  --heading-color: #095fa0; /* Slightly Darker Orange for Headings */
 
   /* Borders and Shadows */
   --border-color: #d1d5db; /* Medium Gray for Borders */
   --shadow-color: rgba(0, 0, 0, 0.1); /* Subtle Shadow Color */
 
   /* Hover and Active States */
-  --hover-color: #248cdb; /* Slightly Darker Blue for Hover States */
-  --active-color: #4b4be8; /* Dark Blue for Active States */
+  --hover-color: #6ca8d6; /* Slightly Darker Blue for Hover States */
+  --active-color: #7171e4; /* Dark Blue for Active States */
 
   /* Dark Theme Variables */
   --primary-color-dark: #ff6b35; /* Soft Complementary Orange on Dark */
@@ -31,6 +32,7 @@
 
   --text-color-dark: #fafafa; /* Very Light Gray for Main Text */
   --muted-text-color-dark: #aaaaaa; /* Lighter Gray for Muted Text */
+  --link-color-dark: #fafafa; /* Very Light Gray for Main Text */
   --heading-color-dark: #f7c59f; /* Orange for Headings */
 
   --border-color-dark: #444b56; /* Darker Gray for Borders */

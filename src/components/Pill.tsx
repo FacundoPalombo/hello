@@ -22,7 +22,6 @@ export default function Pill({ name }: { name: string }) {
           border: `1px solid ${icon ? icon.color + "aa" : "#fafafaaa"}`,
           color: `${icon ? getContrastingTextColor(icon.color) : "black"}`,
           fontWeight: "500",
-          filter: `drop-shadow(0 0 6px rgba(0, 0, 0, 0.3))`,
           borderRadius: "1em",
           padding: "2px 6px",
           display: "inline-flex",

@@ -24,7 +24,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 6em;
+    gap: 3em;
     height: max-content;
   }
 

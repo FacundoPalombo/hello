@@ -6,6 +6,8 @@
 }
 
 .workExperiences__list {
+  padding: 0 1em;
+
   position: relative;
   display: block;
 
