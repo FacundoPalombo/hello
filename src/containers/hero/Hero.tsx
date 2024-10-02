@@ -12,6 +12,11 @@ import {
 export default function Hero() {
   const { t } = useTranslation();
 
+  const availabilityText = {
+    available: t("Disponible para trabajar"),
+    chambeando: t("Trabajando y conectando"),
+  };
+
   const Heading = () => {
     return (
       <div className={styles.header}>
@@ -23,7 +28,7 @@ export default function Hero() {
           />
         </span>
         <Button href="https://www.linkedin.com/in/facundopalombo/" highlighted>
-          {t("Disponible para trabajar")}
+          {availabilityText["chambeando"]}
         </Button>
       </div>
     );
