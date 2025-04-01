@@ -13,8 +13,7 @@ export default function Hero() {
   const { t } = useTranslation();
 
   const availabilityText = {
-    available: t("Disponible para trabajar"),
-    chambeando: t("Trabajando y conectando"),
+    available: t("Abierto a nuevas oportunidades"),
   };
 
   const Heading = () => {
@@ -28,7 +27,7 @@ export default function Hero() {
           />
         </span>
         <Button href="https://www.linkedin.com/in/facundopalombo/" highlighted>
-          {availabilityText["chambeando"]}
+          {availabilityText["available"]}
         </Button>
       </div>
     );
@@ -40,7 +39,7 @@ export default function Hero() {
         <h1 className={styles.title}>{t("Hola 👋, soy Facundo")}</h1>
         <h2 className={styles.subtitle}>
           <Trans>
-            Soy desarrollador de software hace +5 años, con una alta
+            Soy desarrollador de software hace +6 años, con una alta
             especialización en <em>Frontend y liderazgo de equipos</em>
           </Trans>
         </h2>

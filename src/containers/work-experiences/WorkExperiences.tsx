@@ -5,6 +5,7 @@ import { RiBriefcase2Line as Case } from "react-icons/ri";
 import MercadoLibre from "../../assets/MercadoLibre";
 import Globant from "../../assets/Globant";
 import Title from "../../components/Title";
+import Cognizant from "../../assets/Cognizant";
 
 export default function WorkExperiences() {
   const { t } = useTranslation();
@@ -15,6 +16,16 @@ export default function WorkExperiences() {
         {t("Experiencia laboral")}
       </Title>
       <div className={styles.workExperiences__list}>
+        <Experience
+          title={t("Frontend Developer")}
+          company={t("Cognizant")}
+          lastDate={t("Actualmente")}
+          logo={<Cognizant />}
+        >
+          {t(
+            "Desarrollé multiples funcionalidades dentro del proyecto de Inditex, realicé mejoras en la performance de la aplicación, aumenté la cobertura de pruebas y mejorando así la seguridad de la aplicación y la experiencia de usuario."
+          )}
+        </Experience>
         <Experience
           title={t("Senior Software Engineer")}
           company={t("Mercado Libre")}
